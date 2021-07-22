@@ -2,7 +2,7 @@
 Description=login service
 [Service]
 Type=simple
-Environment=USERS_API_ADDRESS=http://:8080
+Environment=USERS_API_ADDRESS=http://users.zssurendra.tk:8080
 Environment=AUTH_API_PORT=8080
 ExecStart=/root/shell-script/login/login
 Restart=on-failure
